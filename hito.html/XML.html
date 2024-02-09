@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a XML</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      padding-top: 50px;
+      position: relative; /* Añadido para posicionar correctamente el botón */
+    }
+    .container {
+      max-width: 800px;
+    }
+    #goTopBtn {
+      position: fixed;
+      bottom: 70px; /* Ajuste de la posición vertical */
+      right: 20px;
+      display: none;
+    }
+    /* Alineación del texto a la izquierda */
+    .left-text {
+      text-align: left;
+    }
+    /* Estilo de la imagen */
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Introducción a XML</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#historia">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#normas">Normas de Uso y Sintaxis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aplicaciones">Aplicaciones</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <!-- Columna para la imagen -->
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="xml.jpg" alt="Imagen de XML">
+      </div>
+    </div>
+    <!-- Columna para el texto -->
+    <div class="col-md-8">
+      <section id="historia" class="left-text">
+        <h2>Historia de XML</h2>
+        <p>
+          XML (eXtensible Markup Language) fue desarrollado por el World Wide Web Consortium (W3C) en 1996 como una versión simplificada y más flexible del lenguaje de marcado SGML (Standard Generalized Markup Language). Su objetivo principal era facilitar el intercambio de datos estructurados en la web.
+        </p>
+      </section>
+
+      <section id="normas" class="left-text">
+        <h2>Normas de Uso y Sintaxis de XML</h2>
+        <p>
+          XML utiliza etiquetas para definir la estructura y el significado de los datos. Las etiquetas están organizadas en una estructura jerárquica de árbol, donde cada elemento puede contener otros elementos y atributos.
+        </p>
+        <p>
+          Algunas normas de uso comunes de XML incluyen:
+          <ul>
+            <li>DTD (Document Type Definition): Define la estructura y los tipos de datos permitidos en un documento XML.</li>
+            <li>XSD (XML Schema Definition): Ofrece una forma más poderosa y flexible de definir la estructura y la validación de datos en un documento XML.</li>
+            <li>XPath: Permite realizar consultas en documentos XML para extraer información específica.</li>
+            <li>XSLT (XML Stylesheet Language Transformations): Permite transformar documentos XML en otros formatos, como HTML o XML.</li>
+          </ul>
+        </p>
+      </section>
+
+      <section id="aplicaciones" class="left-text">
+        <h2>Aplicaciones de XML</h2>
+        <p>
+          XML se utiliza en una variedad de aplicaciones, incluyendo
+          <button onclick="window.location.href = 'hito.html';" class="btn btn-primary fixed-bottom mr-3 mb-3">Ir al inicio</button>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a JSON</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      padding-top: 50px;
+    }
+    .container {
+      max-width: 800px;
+    }
+    /* Estilo de la imagen */
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Introducción a JSON</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#introduccion">Introducción</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#historia">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#normas">Normas de Uso y Sintaxis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aplicaciones">Aplicaciones</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <!-- Columna para la imagen -->
+    <div class="col-md-4">
+      <div class="image-container">
+        <img src="JSON.png" alt="Imagen de JSON">
+      </div>
+    </div>
+    <!-- Columna para el texto -->
+    <div class="col-md-8">
+      <section id="introduccion">
+        <h2>Introducción a JSON</h2>
+        <p>
+          JSON (JavaScript Object Notation) es un formato de intercambio de datos ligero y fácil de usar. Está basado en la sintaxis de los objetos de JavaScript, lo que lo hace muy familiar y fácil de entender para los desarrolladores web.
+        </p>
+      </section>
+
+      <section id="historia">
+        <h2>Historia de JSON</h2>
+        <p>
+          JSON fue creado por Douglas Crockford a principios de la década de 2000 como un formato de intercambio de datos ligero y fácil de usar.
+        </p>
+      </section>
+
+      <section id="normas">
+        <h2>Normas de Uso y Sintaxis de JSON</h2>
+        <p>
+          JSON se basa en dos estructuras de datos principales: objetos y arrays. Estas estructuras permiten representar datos de forma sencilla y flexible.
+        </p>
+        <p>
+          Aunque JSON en sí mismo no tiene un esquema formal, se pueden definir esquemas JSON utilizando herramientas como JSON Schema para validar la estructura y los datos de un documento JSON.
+        </p>
+      </section>
+
+      <section id="aplicaciones">
+        <h2>Aplicaciones de JSON</h2>
+        <p>
+          JSON se utiliza comúnmente en combinación con AJAX para intercambiar datos entre el cliente y el servidor de forma asíncrona en aplicaciones web.
+        </p>
+      </section>
+    </div>
+  </div>
+</div>
+
+<button onclick="window.location.href = 'hito.html';" class="btn btn-primary fixed-bottom mr-3 mb-3">Ir al inicio</button>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
