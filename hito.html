@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Programación</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    .sidebar {
+      background-color: #f8f9fa;
+      padding: 15px;
+      margin-right: 20px; /* Ajuste del margen derecho */
+    }
+    .article {
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    @media (min-width: 768px) {
+      /* Estilos para pantallas medianas y grandes */
+      .sidebar {
+        height: 100%;
+        position: sticky;
+        top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="XML.html">XML</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="JSON.html">JSON</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="article">
+        <h2>Artículo sobre XML</h2>
+        <p><h3>Introducción</h3>Introducción
+            En la era de la información, la necesidad de intercambiar datos de manera eficiente y estructurada ha llevado al desarrollo de varios formatos de representación de datos. Entre ellos, XML (eXtensible Markup Language) y JSON (JavaScript Object Notation) son dos de los más populares y ampliamente utilizados. En esta investigación, exploraremos la historia, las normas de uso y sintaxis, así como las aplicaciones en el ámbito empresarial de XML y JSON.
+            
+            <h3>Historia de XML</h3>
+            XML fue desarrollado por el World Wide Web Consortium (W3C) en 1996 como una versión simplificada y más flexible del lenguaje de marcado SGML (Standard Generalized Markup Language). Su objetivo principal era facilitar el intercambio de datos estructurados en la web. XML se convirtió rápidamente en un estándar ampliamente adoptado debido a su facilidad de lectura por humanos y su compatibilidad con una amplia gama de plataformas y sistemas.
+            
+            <h3>Normas de uso y sintaxis de XML</h3>
+            XML utiliza etiquetas para definir la estructura y el significado de los datos. Las etiquetas están organizadas en una estructura jerárquica de árbol, donde cada elemento puede contener otros elementos y atributos. La sintaxis básica de XML es la siguiente:
+            
+            xml
+            Copy code
+            <elemento atributo="valor">contenido</elemento>
+            Algunas normas de uso comunes de XML incluyen:
+            <br>
+            
+            <b>DTD (Document Type Definition):</b> Define la estructura y los tipos de datos permitidos en un documento XML.<br>
+            <b>XSD (XML Schema Definition):</b> Ofrece una forma más poderosa y flexible de definir la estructura y la validación de datos en un documento XML.<br>
+            <b>XPath:</b> Permite realizar consultas en documentos XML para extraer información específica.<br>
+            <b>XSLT (XML Stylesheet Language Transformations):</b> Permite transformar documentos XML en otros formatos, como HTML o XML.</p>
+      </div>
+      <div class="article">
+        <h2>Artículo sobre JSON</h2>
+        <p><h3>Historia de JSON</h3>
+            JSON fue creado por Douglas Crockford a principios de la década de 2000 como un formato de intercambio de datos ligero y fácil de usar. Está basado en la sintaxis de los objetos de JavaScript, lo que lo hace muy familiar y fácil de entender para los desarrolladores web. JSON ganó popularidad rápidamente debido a su simplicidad y su capacidad para ser procesado fácilmente tanto por humanos como por máquinas.
+            
+            <h3>Normas de uso y sintaxis de JSON</h3>
+            JSON se basa en dos estructuras de datos principales: objetos y matrices. Estas estructuras permiten representar datos de forma sencilla y flexible.<br>
+            <b>Schema JSON:</b> Aunque JSON en sí mismo no tiene un esquema formal, se pueden definir esquemas JSON utilizando herramientas como JSON Schema para validar la estructura y los datos de un documento JSON.<br>
+            <b>AJAX (Asynchronous JavaScript and XML):</b> JSON se utiliza comúnmente en combinación con AJAX para intercambiar datos entre el cliente y el servidor de forma asíncrona en aplicaciones web.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="sidebar">
+        <h4>Categorías</h4>
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">XML</a></li>
+        </ul>
+        <h4>Últimos Posts</h4>
+        <ul>
+          <li><a href="#">Introducción a XML</a></li>
+          <li><a href="#">Introducción a JSON</a></li>
+        </ul>
+        <h4>Síguenos en Redes Sociales</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
